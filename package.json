@@ -1,0 +1,15 @@
+{
+  "name": "http_server",
+  "version": "1.0.0",
+  "description": "An attempt to build HTTP server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http-server",
+    "server"
+  ],
+  "author": "Jaya Teja",
+  "license": "ISC"
+}
