@@ -30,8 +30,6 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-    // res.writeHead(200, { "content-type": "text/html" });
-    // res.end("<h1>HTML FILE YAY!</h1>");
   } else {
     res.writeHead(404, { "content-type": "application/json" });
     res.end(JSON.stringify({ error: "Not found." }));
